@@ -1,16 +1,19 @@
 # Peter Fischer — AI Workflow Systems & Operations Thinking
 
-I build structured AI workflow systems that turn raw input into usable work artifacts.
+**AI Workflow Systems · Logistics Operations · Governance-Aware AI**
 
-My focus is not prompt tricks.
-My focus is controlled AI work:
+I build structured methods to turn raw input into controlled, reusable work.
 
-- problem classification
-- mode-based execution
-- reusable artifacts
-- governance checks
-- logistics and operations use cases
-- decision-ready output
+Focus:
+- AI workflow architecture
+- cold chain & logistics operations
+- decision frameworks
+- governance-aware output
+
+Not prompt tricks.  
+Not hype.
+
+**Controlled AI work.**
 
 ---
 
