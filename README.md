@@ -1,135 +1,93 @@
+# Peter Fischer — AI Workflow Systems & Operations Thinking
 
-# GosseOS — Operator-Level AI Control System
+I build structured AI workflow systems that turn raw input into usable work artifacts.
 
-## What this is
-GosseOS is a structured AI operating system for decision-making, analysis, and high-quality output generation.
+My focus is not prompt tricks.
+My focus is controlled AI work:
 
-It is designed for people who don’t want to “chat” with AI —  
-but **control it like a system**.
-
----
-
-## Core Principle
-Human = Owner  
-AI = Execution Layer  
-GosseOS = Control + Governance
+- problem classification
+- mode-based execution
+- reusable artifacts
+- governance checks
+- logistics and operations use cases
+- decision-ready output
 
 ---
 
-## How it works
+## Core Framework: GosseOS
 
-Pipeline:
-Intent → Analysis → Decision → Execution → Audit
+GosseOS is an operator-centered AI workflow framework.
 
-Agent Stack:
-Planner → Research → Analysis → Strategy → Verification → Output
+It uses a simple operating chain:
 
----
+```text
+raw input → problem class → working mode → artifact → verification → reusable knowledge
+```
 
-## Why GosseOS
-
-Most users:
-- write prompts
-- get random outputs
-- no structure, no control
-
-GosseOS:
-- structured thinking
-- reproducible outputs
-- governance + control
-- operator-level usage
+The goal is to use AI as a structured work system, not as a random chat interface.
 
 ---
 
-## Example
+## What I work on
 
-### Normal Prompt
-"Write me a job application"
+### AI Workflow Architecture
+Structured methods for turning unclear input into clear work results.
 
-### GosseOS Input
-Goal: Executive-level job application  
-Context: 20y logistics + cold chain + leadership  
-Mode: BUILD  
-Output: Executive Dossier
+### Logistics & Supply Chain Operations
+Cold chain, warehouse processes, picking logic, staffing constraints, operational risk, and process control.
 
-### Result
-- structured document
-- high-level positioning
-- market-ready output
+### Governance-Aware AI Use
+Practical gates for risk, assumptions, verification, and human control.
 
----
+### Artifact-First AI Operation
+Outputs should survive the chat session:
 
-## Modes
-
-- BUILD → create systems, documents, concepts
-- AUDIT → analyze & evaluate
-- OPTIMIZE → improve existing output
-- EXECUTE → step-by-step actions
-- ARCHITECT → system design
-- RED TEAM → find weaknesses
-- BRIEFING → management-ready outputs
+- frameworks
+- checklists
+- scorecards
+- decision templates
+- case studies
+- process audits
 
 ---
 
-## Commands
+## Main Repository
 
-audit  
-build  
-optimize  
-expand  
-extract  
-score  
-health  
+### [gosseos-framework](https://github.com/fissafissaintoki/gosseos-framework)
 
----
+A public working repository for GosseOS and KnowledgeOS.
 
-## Use Cases
+Includes:
 
-- Career / Applications
-- Supply Chain / Logistics
-- AI System Design
-- Business Analysis
-- Decision Frameworks
+- mode routing matrix
+- governance gate
+- artifact quality logic
+- logistics cold chain case
+- executable router tool
+- raw-input-to-artifact examples
 
 ---
 
-## Philosophy
+## Current Proof of Work
 
-You don’t ask AI.
+- Cold Chain Risk Case
+- GosseOS Router Tool
+- Mode Routing Matrix
+- Governance Gate
+- KnowledgeOS extraction logic
 
-You operate it.
+---
+
+## Working Principle
+
+Human stays owner.  
+AI stays tool.  
+Governance makes the work controllable.
 
 ---
 
 ## Status
 
-Experimental system  
-Built in real workflows  
-Continuously evolving
+Experimental, practical, and actively evolving.
 
----
-
-## Author
-
-Operator Fischer  
-Executive System Architect (AI x Logistics x Systems)
-
----
-
-## Demo
-
-Try this in ChatGPT:
-
-Goal: Analyze my workflow  
-Context: [your situation]  
-Mode: AUDIT  
-Output: Structured analysis
-
----
-
-## Next Steps
-
-- Test it
-- Break it
-- Improve it
-- Share results
+Built from real workflow pressure, logistics experience, and operator-level AI use.
