@@ -17,9 +17,9 @@ Not hype.
 
 ---
 
-## Core Framework: GosseOS
+## Core Framework: IntoKI OS
 
-GosseOS is an operator-centered AI workflow framework.
+IntoKI OS is an operator-centered AI workflow framework.
 
 It uses a simple operating chain:
 
@@ -56,9 +56,9 @@ Outputs should survive the chat session:
 
 ## Main Repository
 
-### [gosseos-framework](https://github.com/fissafissaintoki/gosseos-framework)
+### [IntoKI OS Framework](https://github.com/fissafissaintoki/gosseos-framework)
 
-A public working repository for GosseOS and KnowledgeOS.
+A public working repository for IntoKI OS and KnowledgeOS.
 
 Includes:
 
@@ -74,7 +74,7 @@ Includes:
 ## Current Proof of Work
 
 - Cold Chain Risk Case
-- GosseOS Router Tool
+- IntoKI OS Router Tool
 - Mode Routing Matrix
 - Governance Gate
 - KnowledgeOS extraction logic
