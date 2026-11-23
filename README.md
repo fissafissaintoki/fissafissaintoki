@@ -1,96 +1,80 @@
-# Peter Fischer — AI Workflow Systems & Operations Thinking
+# Peter Fischer
 
-**AI Workflow Systems · Logistics Operations · Governance-Aware AI**
+**AI operations for logistics and process work: governed workflows, verifiable artifacts, human accountability.**
 
-I build structured methods to turn raw input into controlled, reusable work.
-
-Focus:
-- AI workflow architecture
-- cold chain & logistics operations
-- decision frameworks
-- governance-aware output
-
-Not prompt tricks.  
-Not hype.
-
-**Controlled AI work.**
+I come from temperature-controlled logistics: warehouse processes, picking, staffing constraints and cold chain risk.
+I build AI workflows for that kind of work. A workflow takes messy operational input, produces a defined work product,
+and leaves evidence that it stayed inside an agreed boundary.
 
 ---
 
-## Core Framework: IntoKI OS
+## How the projects fit together
 
-IntoKI OS is an operator-centered AI workflow framework.
+| Layer | Project | Role | Repository |
+|---|---|---|---|
+| Method | **IntoKI OS** (formerly GosseOS) | How work is classified, routed to a working mode, built and reviewed | [gosseos-framework](https://github.com/fissafissaintoki/gosseos-framework) |
+| Knowledge | **KnowledgeOS** | Registry for artifacts, canonical terms, drift reports and audit records | [knowledgeOS-app](https://github.com/fissafissaintoki/knowledgeOS-app) |
+| Application | **Prompterator** | Web app that turns raw input into structured artifacts and dossiers | [operator-fischer-proof-of-work-demo](https://github.com/fissafissaintoki/operator-fischer-proof-of-work-demo) |
+| Runtime | **KYRON** | Governed runtime and public release channel with verified releases | [Kyron-runtime-public](https://github.com/fissafissaintoki/Kyron-runtime-public) |
 
-It uses a simple operating chain:
+The operating chain behind all four:
 
 ```text
 raw input → problem class → working mode → artifact → verification → reusable knowledge
 ```
 
-The goal is to use AI as a structured work system, not as a random chat interface.
+---
+
+## Evidence
+
+What you can check in the repositories yourself:
+
+**Prompterator** (Python, OpenAI + Anthropic APIs, ReportLab)
+- Two models draft independently, then the drafts are merged. Contradictions are marked as assumptions instead of being silently resolved.
+- If a provider fails, the response says so. A partial run is never reported as a complete synthesis.
+- About 150 unit tests in `tests/`, run in GitHub Actions on every push and pull request.
+- A command safety gate for coding agents, with rules, test cases and a coverage report (`tools/command-safety-gate/`).
+
+**KYRON** (Python, GitHub Actions, MCP)
+- Release payloads are checked against generated manifests before deployment (`scripts/verify_release.py`, `schemas/`).
+- Tests for the release verification and the public offer (`tests/`).
+- A documented trust model, security policy and rights notice (`docs/TRUST_MODEL.md`, `SECURITY.md`, `RIGHTS.md`).
+- A read-only MCP endpoint for deterministic planning and metadata checks.
+
+**KnowledgeOS** (YAML registry, Markdown records)
+- An artifact schema, a register of canonical and deprecated terms, and a source registry (`registry/`).
+- Dated proof runs, drift reports and audit records (`reports/`).
+- Release, risk and verification policies (`governance/`).
+
+**IntoKI OS** (Markdown specification, FastAPI and React workbench prototype)
+- Mode specifications, a governance gate and an artifact standard.
+- Logistics case: cold chain risk analysis (`cases/LOGISTICS_COLD_CHAIN_RISK_CASE.md`).
+- A workbench prototype with routing, integrity check and artifact registry (`workbench/`).
 
 ---
 
-## What I work on
+## Domain focus
 
-### AI Workflow Architecture
-Structured methods for turning unclear input into clear work results.
-
-### Logistics & Supply Chain Operations
-Cold chain, warehouse processes, picking logic, staffing constraints, operational risk, and process control.
-
-### Governance-Aware AI Use
-Practical gates for risk, assumptions, verification, and human control.
-
-### Artifact-First AI Operation
-Outputs should survive the chat session:
-
-- frameworks
-- checklists
-- scorecards
-- decision templates
-- case studies
-- process audits
+- Cold chain and temperature-controlled warehousing
+- Picking processes, including a wearable picking concept with a risk assessment (GlowGlove)
+- Operational risk, process audits and decision support
+- Governance for AI use: assumptions, verification gates, human approval
 
 ---
 
-## Main Repository
+## Working principles
 
-### [IntoKI OS Framework](https://github.com/fissafissaintoki/gosseos-framework)
-
-A public working repository for IntoKI OS and KnowledgeOS.
-
-Includes:
-
-- mode routing matrix
-- governance gate
-- artifact quality logic
-- logistics cold chain case
-- executable router tool
-- raw-input-to-artifact examples
-
----
-
-## Current Proof of Work
-
-- Cold Chain Risk Case
-- IntoKI OS Router Tool
-- Mode Routing Matrix
-- Governance Gate
-- KnowledgeOS extraction logic
-
----
-
-## Working Principle
-
-Human stays owner.  
-AI stays tool.  
-Governance makes the work controllable.
+1. **The human owns the result.** AI prepares and checks. It does not decide.
+2. **Claims need a baseline.** A polished demo alone is not proof.
+3. **Failures are reported.** Missing data, a failed model call or an unverified assumption is stated in the output.
+4. **Outputs outlive the chat.** Results are stored as versioned artifacts, not left in chat history.
 
 ---
 
 ## Status
 
-Experimental, practical, and actively evolving.
+These are working prototypes and proof-of-work projects, not certified products.
+Prompterator is an MVP: data protection terms have not been legally reviewed, so do not enter personal or confidential data.
+KYRON's public repository shows releases and verification evidence. The private implementation is not published.
 
-Built from real workflow pressure, logistics experience, and operator-level AI use.
+Languages: German, English
